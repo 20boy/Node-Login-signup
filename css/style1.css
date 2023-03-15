@@ -1,0 +1,212 @@
+body{
+	font-family: sans-serif;
+	padding: 0;
+	margin: 0;
+}
+
+/*header*/
+
+header{
+	background-color: chocolate;
+}
+
+div a {
+	float: right;
+	display: inline;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 20px 20px 20px ;
+}
+
+
+header#branding{
+	float: left;
+}
+.news{
+	height: 100px;
+	background-color: springgreen;
+
+
+
+}
+p.last{
+	font-size: 15px;
+	background-color: chocolate;
+}
+div.last{
+	width: 400px;
+	overflow: hidden;
+}
+div.container{
+	 background-image: url(C:\Users\KOYEJO\Desktop\CODING\jpeg\005.jpg);
+	}
+ header li.current{
+	color: indianred;
+}
+div.icn{
+	height: 50px;
+	width: 70px;
+	background-color: indianred;
+}
+.las{
+	font-size: 15px;
+	background-color: chocolate;s
+
+}
+div.tion{
+	background-color: chocolate;
+}
+.oint{
+	background-color: chocolate;
+}
+nav.rait{
+	float: right;
+}
+.current{
+	font-size: 15px;
+	font-family: sans-serif;
+	color: skyblue;
+}
+.current:hover {
+	font-size: 17px;
+	font-family: cursive;
+	color: orange;
+}
+#brand{
+	background-color: chocolate;
+}
+.curren{
+	color: skyblue;
+
+}
+.curre{
+
+	color: skyblue;
+}
+.hot{
+	background-color: dodgerblue;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+.lgo{
+	resize: 100px;
+}
+@media screen and ( min-height: 40%) {
+	background-color:green
+}
+
+.col{
+	position: absolute;
+	display: inline-block;
+}
+.loc{
+	position: absolute;
+	display: none;
+}
+.coal:hover > .loc{
+	display: block;
+}
+.tom{
+	background-color: orangered;
+	position: relative;
+	margin: 6% auto;
+	border-radius: 20px;
+}
+.tomy{
+	height: 40px;
+	width: 70%;
+	background-color: chocolate;
+	position: absolute ;
+	margin: 35px;
+	border-radius: 15px;
+	box-shadow: 0px 0px 15px 10px green;
+	padding-left: 20px;
+	align-self: center;
+	align-items: center;
+}
+.gik{
+	text-align: center;
+	background: linear-gradient(to left purple);
+	position: relative;
+	padding-bottom: 50px;
+
+}
+button.toggl{
+	color: royalblue;
+	font-size: 15px;
+	background: transparent;
+	border: 0;
+	outline: none;
+	position: relative;
+}
+#FEM{
+	color: royalblue;
+	position: absolute;
+	background: linear-gradient(to left, green);
+	border-radius: 20px;
+	transition: 0.5s;
+}
+.form{
+	top: 100px;
+	position: absolute;
+	width: 98%;
+	background: transparent;
+	border-radius: 20px;
+
+}
+.sike{
+	resize: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

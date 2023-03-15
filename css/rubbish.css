@@ -1,0 +1,64 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0px;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/david-becker-dMeEJRE18VI-unsplash.jpg);
+    background-size: cover;
+}
+
+h1{
+    color: coral;
+}
+.snot{
+    border-radius: 10%;
+    size: 150px;
+    box-shadow: 1px 2px rgb(220, 220, 238);
+    transition: size 3s;
+}
+.inputContainer{
+    margin-left: 250px;
+    width: 700px;
+    background-color: gray;
+    padding: 30px;
+    border-radius: 10%;
+    box-shadow: 0 0 25px rgb(38, 49, 171);
+    border: 10px solid rgb(206, 201, 54);
+}
+.inputContainer .inputRow{
+    margin-bottom: 12px;
+}
+.inputContainer input:not([type="submit"]),
+.inputContainer textarea{
+    width: 90%;
+    margin: 0 0 3px;
+    background-color: floralwhite;
+    color: black;
+    padding: 15px 20px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 15%;
+    border: 2px solid transparent;
+    outline: 0;
+    transition: all 0.5s ease-out;
+}
+.inputContainer textarea{
+    height: 100px;
+    resize: horizontal;
+}
+.inputContainer input:not([type="submit"]),
+.inputContainer textarea:focus{
+    border-color: cornflowerblue;
+}
+*::-webkit-input-placeholder{
+    opacity: 1;
+    color: #000;
+}
+button{
+    margin-left: 200px;
+}
+
+

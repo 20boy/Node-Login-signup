@@ -1,0 +1,310 @@
+body{
+	background-size: cover;
+	background: linear-gradient();
+
+}
+
+
+
+	
+}
+h1{
+	font font-weight: bold;
+}
+cite: hover;
+{float: right;
+ color: red;
+ font-size: 30px;
+ transition-duration: 2s;
+
+
+}
+button.root{
+	background-color: lightblue;
+}
+
+}
+a:link{
+	background-color: green; 
+}
+a:focus{
+	border: 1px solid red;
+	background: grey;
+}
+.borin {
+	position: relative;
+	border-radius: 4px;
+	background-color: greenyellow;
+	text-align: center;
+	font-size: 30px;
+	padding: 20px;
+	width: 200px;
+	transition: 0.7s;
+	cursor: pointer;
+}
+	
+button span:after{
+	content: '>>>';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 2s;
+}
+button:hover span{
+	padding-right: 25px;
+}
+button:hover span:after{
+	opacity: 1;
+	right: 0;
+}
+button.disabled{
+	cursor: not-allowed;
+}
+
+p.ex{
+	display: inline-block;
+	border: 1px solid red;
+	padding: 10px;
+	margin: 10px;
+}
+.center{
+	position: absolute;
+	right: 0;
+	width: 70%;
+	border: 6px solid green;
+}
+li#two  li{
+	color: red;
+	background: lightblue;
+} 
+.center .root{
+	color: darkred;
+}
+p:hover{
+	color: red;
+	font-size: 30px;
+}
+.true::after{
+	content: "-> true";
+	color: darkred;
+}
+
+.div1 {
+	background: rgba(89, 54, 78, 0.6);
+
+}
+p.hat{
+	font-size: 200%;
+	text-shadow: -1px 0 red, 3px orangered;
+}
+.card{
+	box-shadow: 0 10px 5px 0 ;
+	width: 250px;
+	font-family: sans-serif;
+	color: green;
+}
+.card-header {
+	padding: 15px;
+	font-size:20px;
+	background-color: darkred;
+}
+.card-body{
+	background-color: crimson;
+	word-wrap: break-word;
+}
+@keyframes myanimation{
+	from {
+		background-color: gold;
+		top: 0px;
+	}
+	to{
+		background-color: green;
+		top: 600px;
+		left: 50pxpx;
+	}
+}
+div.old {
+	animation-name: myanimation;
+	animation-duration: 2s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-play-state: running;
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background-color: gold;
+}
+div.cola{
+	column-count: 4;
+	column-width: 100px;
+	column-rule-style: double;
+	column-rule-width: 5px;
+	column-rule-color: red;
+}
+div.resa{
+	resize: both;
+	border: 1px solid red;
+	padding: 50px;
+}
+div.opi {
+width: 200px;
+height: 200px;
+padding: 20px;
+border: 10px solidgreen;
+background-color: yellow;
+border
+}	
+div.pil{
+	display: flex;
+	flex-flow: row-reverse wrap;
+	justify-content: center;
+	background-color: red;
+	padding: 20px;
+}
+.pil > div{
+	background: yellow;
+	width: 100px;
+	height: 100px;
+	margin: 5px;
+}
+.current{
+	background-color: darkgreen;
+}
+.dark{
+	padding: 15px;
+	background-color: darkorchid;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.current{
+	position: absolute;
+	display: inline-block;
+}
+.loc{
+	position: absolute;
+	display: none;
+}
+.current:hover > .loc{
+	display: block;
+}
+.logger{
+	width: 250px;
+	height: 300px;
+	background-color: lightpink;
+	border-radius: 30px;
+}
+.dopil{
+	width: 150px;
+	height: 40px;
+	position: absolute;
+	color: red;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

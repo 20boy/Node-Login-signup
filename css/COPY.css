@@ -1,0 +1,65 @@
+div.hero{
+    display: block;
+    margin: auto;
+    width: 420px; 
+    height: 580px;
+    background-color: rosybrown;
+    border-inline: 5px;
+    border-radius: 15px;
+}
+.log{
+    text-decoration-color: blue;
+    text-align: center;
+}
+button.log{
+    display: block;
+    margin: auto;
+    background-color: darkorange;
+    color: seagreen;
+    align-items: center;
+    align-self: center;
+    border-radius: 20%;
+}
+button.log:hover{
+    background-color: deeppink;
+}
+form.eba{
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 100%;
+} 
+p.what {
+    color: blue;
+    font-size: 50px;
+}
+
+body{
+    float: left;
+}
+.suber{
+    width: 100%;
+    cursor: pointer;
+    color: darkturquoise;
+    background-color: yellow;
+    border-radius: 10px;
+}
+.suber.hover{
+    color:steelblue;
+}
+div.baoo{
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+.fullname{
+    width: 100%;
+}
+img.top{
+    height: 70px;
+    width: 100px;
+
+}
+
+    
+    

@@ -1,0 +1,179 @@
+body{
+    background-color: darkslategray;
+}
+
+.container{
+    background-image: url(/koye.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+    width: fit-content;
+    height: 350px;
+    margin: 70px auto;
+    border: 2px solid rebeccapurple;
+    padding: 50px;
+    border-radius: 10px;
+}
+h2{
+    color: rebeccapurple;
+    text-align: center;
+}
+
+#projects{ 
+    margin-top: 20px;
+    border-radius: 20px;
+    border: solid black;
+    padding: 20px 5px 0px 5px;
+   box-sizing: content-box;
+   width: 100%;
+}
+.ol{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 20px;
+}
+ol li{
+    cursor: pointer;
+    padding: 2px;
+    border: 1px groove rgb(20, 8, 8);
+    margin-bottom: 5px;
+}
+ol li:hover {
+    background-color: chartreuse;
+    opacity: 0.6;
+}
+ul {
+    list-style-type: none;
+    margin: 0%;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(93, 93, 180);
+    padding-top: 5px;
+}
+ul li {
+    float: left;
+    margin-right: 2px;
+    border-radius: 10px;
+}
+ul li a{
+    display: block;
+    padding: 14px 16px 10px 16px;
+    background-color: rgb(88, 224, 88);
+    text-decoration: none;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+
+ul li a:hover{
+    background-color:rgb(38, 187, 224);
+    opacity: 0.6;
+}
+#dialog{
+    padding-top: 10px;
+    border-radius: 5%;
+    background-color: springgreen;
+    box-sizing: content-box;
+    border: solid black;
+    resize: none; 
+}
+.newtaskform{
+    display: flex;
+
+}
+input,button{
+    appearance: none;
+    border: none;
+    outline: none;
+    background: none;    
+}
+.realText{
+    flex: 1 1 0%;
+    background-color: rgb(99, 22, 14);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: seashell;
+    opacity: 0.7;
+}
+.realText:hover{
+    opacity: 1;
+}
+.realText::placeholder{
+    color: rgb(175, 245, 210);
+}
+.addProject{
+    color: pink;
+    font-size: small;
+    font-weight: 700;
+    background-image: linear-gradient(to right, skyblue, purple, red);
+    background-clip: text;
+   cursor: pointer;
+    opacity: 0.3;
+    border-radius: 10px;
+}
+.addProject:hover{
+    opacity: 0.6;
+}
+.addProject:active{
+    opacity: 1;
+}
+#personal{
+    flex: 1 1 0%;
+    background-color: rgb(66, 3, 61);
+    padding: 10px;
+    border-radius: 10px;
+    margin-right: 10px;
+    color: seashell;
+}
+.aller{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(66, 5, 10);
+   padding: 10px;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   width: fit-content;
+  
+}
+.edo .aller .fakeText {
+    color:rgb(185, 153, 10) ;
+    font-weight: 800;
+    font-size: medium;
+    width: fit-content;
+    display: block;
+}
+#personal .aller .fakeText:not(:read-only){
+    color: magenta;
+}
+#personal .aller.actions{
+    display: flex;
+    margin: 0 2 0 2;
+}
+.edit{
+    cursor: pointer;
+    font-size: small;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.4;
+    background-image: linear-gradient(to right, rgb(60, 160, 199), rgb(221, 70, 221), rgb(201, 83, 83));
+    border-radius: 20px;
+    opacity: 0.5;
+}
+.edit:hover{
+    opacity: 1;
+}
+.delete{
+    cursor: pointer;
+    font-size: smaller;
+    font-weight: 800;
+    text-transform: uppercase;
+    opacity: 0.4;
+    background-color: red;
+    border-radius: 20px;
+    opacity: 1;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);;
+}
+
+
+
